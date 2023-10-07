@@ -1,0 +1,212 @@
+body{
+    background-image: url("images/fon2.jpg");
+    background-size: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.background{
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+footer{
+    background-color: #b0aaaa;
+    padding: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+.header_title {
+    display: flex;
+    flex-direction: column;   
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-shadow: 3px 3px 3px #a92f2f;
+    margin: 0%;
+}
+
+.main_title{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+.main_photo{
+    margin-right: 20px;
+    max-width: 400px;
+    min-width: 150px; 
+    height: auto;
+    border: 10px double #a92f2f;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0px;
+}
+
+.text{ 
+    font-family: Verdana, sans-serif;
+    min-width: 150px;
+    max-width: 700px;
+    font-size: 16px;    
+    line-height: 1.35;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-indent: 30px;
+    text-align: justify;
+    margin-right: 15px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.title{
+    font-family: Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px; 
+    text-indent: 20px;
+    font-style: italic;
+    text-align: left;
+    text-shadow: 2px 2px 2px #a92f2f;
+    margin-bottom: 10px;
+}
+
+.member{
+    border-style:double;
+    border-width: 5px;
+    border-color: #a92f2f;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 250px;
+}
+
+.text_small{
+    font-family: Verdana, sans-serif;
+    font-size: 14px;    
+    line-height: 1.25;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-indent: 30px;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px; 
+}
+.text_center{
+    font-family: Verdana, sans-serif;
+    font-size: 14px;    
+    line-height: 1.25;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding: 0px;     
+}
+.title_small{
+    font-family: Verdana, sans-serif;
+    font-size: 24px; 
+    font-style: italic;
+    text-align: left;
+    text-shadow: 2px 2px 2px #ff7348;
+    margin: 10px; 
+    text-align: left;  
+}
+.photo_memb{
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.album{
+    background-color: #f0ecec;    
+    border-style:double;
+    border-width: 3px;
+    border-color: #a92f2f;
+    padding: 0;
+    margin: 10px;
+    max-width: 300px;    
+}
+
+.photo_alb{
+    max-width: 170px;
+    min-width: 50px;
+    height: auto;
+    margin: 10px;
+    padding: 0px;    
+}
+.link{
+    color: #930000;
+    font-weight: 550;
+}
+.simple_text{
+    font-family: Verdana, sans-serif;
+    font-size: 16px;    
+    line-height: 1.35;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-align: justify;
+    margin-right: 15px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;    
+}
+.end_photo{
+    border-radius: 10%;
+    max-width: 280px;
+    min-width: 5px;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    padding: 0px;  
+}
+.logo{
+    margin: 10px;
+    margin-left: 0%;
+    max-width: 20%;
+    min-width: 8%;
+    height: auto;
+    padding: 0px;    
+}
+.leveling{
+    text-align: center;
+}
