@@ -90,6 +90,7 @@ footer{
     text-align: left;
     text-shadow: 2px 2px 2px #a92f2f;
     margin-bottom: 10px;
+    font-weight: normal; 
 }
 
 .member{
@@ -138,7 +139,8 @@ footer{
     text-align: left;
     text-shadow: 2px 2px 2px #ff7348;
     margin: 10px; 
-    text-align: left;  
+    text-align: left;
+    font-weight: normal; 
 }
 .photo_memb{
     max-width: 150px;
